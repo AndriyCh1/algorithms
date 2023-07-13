@@ -15,6 +15,6 @@ function insertionSort(arr) {
 }
 
 const input = [5, 2, 4, 6, 1, 3];
-const result = insertionSort(input);
 console.log(input);
+const result = insertionSort(input);
 console.log(result);

@@ -3,8 +3,6 @@ function swapElements(firstIndex, secondIndex, arr) {
 
   arr[firstIndex] = arr[secondIndex];
   arr[secondIndex] = firstElement;
-
-  return arr;
 }
 
 function selectionSort(arr) {
@@ -28,6 +26,6 @@ function selectionSort(arr) {
 }
 
 const input = [5, 2, 4, 6, 1, 3];
-const result = selectionSort(input);
 console.log(input);
+const result = selectionSort(input);
 console.log(result);
