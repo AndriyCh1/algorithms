@@ -30,7 +30,7 @@ function findNodeDepthUsingStack(root) {
   const stack = [{ node: root, depth: 0 }];
 
   while (stack.length > 0) {
-    const nodeInfo = stack.splice(stack.length - 1, 1)[0];
+    const nodeInfo = stack.pop();
     const { node, depth } = nodeInfo;
 
     if (node === null) {
